@@ -57,6 +57,7 @@
 		87D854F32B7D4709009F7ED2 /* ToastComp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastComp.swift; sourceTree = "<group>"; };
 		87D854F52B7D4CFB009F7ED2 /* TabViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewScreen.swift; sourceTree = "<group>"; };
 		87D854F72B7D51AB009F7ED2 /* Toast.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Toast.md; sourceTree = "<group>"; };
+		87D854FA2B7D6338009F7ED2 /* FastFile.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = FastFile.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +89,7 @@
 		87D854AB2B7D1C5B009F7ED2 = {
 			isa = PBXGroup;
 			children = (
+				87D854F92B7D6314009F7ED2 /* fastlane */,
 				87D854B62B7D1C5B009F7ED2 /* SwiftUI Base Components */,
 				87D854C82B7D1C5C009F7ED2 /* SwiftUI Base ComponentsTests */,
 				87D854D22B7D1C5C009F7ED2 /* SwiftUI Base ComponentsUITests */,
@@ -170,6 +172,14 @@
 				87D854F72B7D51AB009F7ED2 /* Toast.md */,
 			);
 			path = Toast;
+			sourceTree = "<group>";
+		};
+		87D854F92B7D6314009F7ED2 /* fastlane */ = {
+			isa = PBXGroup;
+			children = (
+				87D854FA2B7D6338009F7ED2 /* FastFile.md */,
+			);
+			path = fastlane;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
