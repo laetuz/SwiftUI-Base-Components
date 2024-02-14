@@ -17,6 +17,7 @@
 		87D854E92B7D2D57009F7ED2 /* ToastScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D854E82B7D2D57009F7ED2 /* ToastScreenView.swift */; };
 		87D854EC2B7D2ED9009F7ED2 /* ToastUI in Frameworks */ = {isa = PBXBuildFile; productRef = 87D854EB2B7D2ED9009F7ED2 /* ToastUI */; };
 		87D854EE2B7D30D6009F7ED2 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D854ED2B7D30D6009F7ED2 /* AsyncImageView.swift */; };
+		87D854F12B7D3E33009F7ED2 /* AsyncImageComp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D854F02B7D3E33009F7ED2 /* AsyncImageComp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		87D854D52B7D1C5C009F7ED2 /* SwiftUI_Base_ComponentsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Base_ComponentsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		87D854E82B7D2D57009F7ED2 /* ToastScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastScreenView.swift; sourceTree = "<group>"; };
 		87D854ED2B7D30D6009F7ED2 /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		87D854F02B7D3E33009F7ED2 /* AsyncImageComp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageComp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,10 +141,19 @@
 		87D854E72B7D2D3B009F7ED2 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				87D854EF2B7D3E10009F7ED2 /* AsyncImage */,
 				87D854E82B7D2D57009F7ED2 /* ToastScreenView.swift */,
-				87D854ED2B7D30D6009F7ED2 /* AsyncImageView.swift */,
 			);
 			path = Presentation;
+			sourceTree = "<group>";
+		};
+		87D854EF2B7D3E10009F7ED2 /* AsyncImage */ = {
+			isa = PBXGroup;
+			children = (
+				87D854ED2B7D30D6009F7ED2 /* AsyncImageView.swift */,
+				87D854F02B7D3E33009F7ED2 /* AsyncImageComp.swift */,
+			);
+			path = AsyncImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +296,7 @@
 				87D854BA2B7D1C5B009F7ED2 /* ContentView.swift in Sources */,
 				87D854E92B7D2D57009F7ED2 /* ToastScreenView.swift in Sources */,
 				87D854B82B7D1C5B009F7ED2 /* SwiftUI_Base_ComponentsApp.swift in Sources */,
+				87D854F12B7D3E33009F7ED2 /* AsyncImageComp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
