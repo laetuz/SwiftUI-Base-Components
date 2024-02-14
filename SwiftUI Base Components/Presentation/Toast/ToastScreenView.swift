@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import ToastUI
 
 struct ToastScreenView: View {
     @State private var showToast = false

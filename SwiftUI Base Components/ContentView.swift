@@ -10,11 +10,17 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-        //    ToastScreenView()
-            AsyncImageView()
+            SampleView()
             Spacer()
         }
         .padding()
+    }
+}
+
+struct SampleView: View {
+    var body: some View {
+        ToastScreenView()
+        AsyncImageView()
     }
 }
 

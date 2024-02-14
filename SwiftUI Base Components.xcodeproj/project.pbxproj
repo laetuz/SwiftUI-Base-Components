@@ -19,6 +19,7 @@
 		87D854EE2B7D30D6009F7ED2 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D854ED2B7D30D6009F7ED2 /* AsyncImageView.swift */; };
 		87D854F12B7D3E33009F7ED2 /* AsyncImageComp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D854F02B7D3E33009F7ED2 /* AsyncImageComp.swift */; };
 		87D854F42B7D4709009F7ED2 /* ToastComp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D854F32B7D4709009F7ED2 /* ToastComp.swift */; };
+		87D854F62B7D4CFB009F7ED2 /* TabViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D854F52B7D4CFB009F7ED2 /* TabViewScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		87D854ED2B7D30D6009F7ED2 /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
 		87D854F02B7D3E33009F7ED2 /* AsyncImageComp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageComp.swift; sourceTree = "<group>"; };
 		87D854F32B7D4709009F7ED2 /* ToastComp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastComp.swift; sourceTree = "<group>"; };
+		87D854F52B7D4CFB009F7ED2 /* TabViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 			children = (
 				87D854F22B7D46EB009F7ED2 /* Toast */,
 				87D854EF2B7D3E10009F7ED2 /* AsyncImage */,
+				87D854F52B7D4CFB009F7ED2 /* TabViewScreen.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 			files = (
 				87D854EE2B7D30D6009F7ED2 /* AsyncImageView.swift in Sources */,
 				87D854BA2B7D1C5B009F7ED2 /* ContentView.swift in Sources */,
+				87D854F62B7D4CFB009F7ED2 /* TabViewScreen.swift in Sources */,
 				87D854F42B7D4709009F7ED2 /* ToastComp.swift in Sources */,
 				87D854E92B7D2D57009F7ED2 /* ToastScreenView.swift in Sources */,
 				87D854B82B7D1C5B009F7ED2 /* SwiftUI_Base_ComponentsApp.swift in Sources */,
