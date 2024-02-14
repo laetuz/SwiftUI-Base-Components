@@ -13,7 +13,6 @@ target 'SwiftUI Base Components' do
   pod 'CollectionViewSlantedLayout', '~> 3.1'
   pod 'DLProgressHUD', '~> 1.0'
 
-  end
 
   post_install do |pi|
     pi.pods_project.targets.each do |t|
