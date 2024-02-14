@@ -28,13 +28,13 @@ platform :ios do
         )
     end
 
-    lane :lint do
-    swiftlint(
-      mode: :lint,
-      executable: './Pods/SwiftLint/swiftlint',
-      output_file: "swiftlint.result.json",
-      raise_if_swiftlint_error: true
-    )
-    end
+<!--    lane :lint do-->
+<!--    swiftlint(-->
+<!--      mode: :lint,-->
+<!--      executable: './Pods/SwiftLint/swiftlint',-->
+<!--      output_file: "swiftlint.result.json",-->
+<!--      raise_if_swiftlint_error: true-->
+<!--    )-->
+<!--    end-->
 
 end
