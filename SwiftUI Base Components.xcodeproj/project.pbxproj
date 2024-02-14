@@ -14,7 +14,9 @@
 		87D854CA2B7D1C5C009F7ED2 /* SwiftUI_Base_ComponentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D854C92B7D1C5C009F7ED2 /* SwiftUI_Base_ComponentsTests.swift */; };
 		87D854D42B7D1C5C009F7ED2 /* SwiftUI_Base_ComponentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D854D32B7D1C5C009F7ED2 /* SwiftUI_Base_ComponentsUITests.swift */; };
 		87D854D62B7D1C5C009F7ED2 /* SwiftUI_Base_ComponentsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D854D52B7D1C5C009F7ED2 /* SwiftUI_Base_ComponentsUITestsLaunchTests.swift */; };
-		87D854E92B7D2D57009F7ED2 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D854E82B7D2D57009F7ED2 /* Toast.swift */; };
+		87D854E92B7D2D57009F7ED2 /* ToastScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D854E82B7D2D57009F7ED2 /* ToastScreenView.swift */; };
+		87D854EC2B7D2ED9009F7ED2 /* ToastUI in Frameworks */ = {isa = PBXBuildFile; productRef = 87D854EB2B7D2ED9009F7ED2 /* ToastUI */; };
+		87D854EE2B7D30D6009F7ED2 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D854ED2B7D30D6009F7ED2 /* AsyncImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +48,8 @@
 		87D854CF2B7D1C5C009F7ED2 /* SwiftUI Base ComponentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI Base ComponentsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87D854D32B7D1C5C009F7ED2 /* SwiftUI_Base_ComponentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Base_ComponentsUITests.swift; sourceTree = "<group>"; };
 		87D854D52B7D1C5C009F7ED2 /* SwiftUI_Base_ComponentsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Base_ComponentsUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		87D854E82B7D2D57009F7ED2 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		87D854E82B7D2D57009F7ED2 /* ToastScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastScreenView.swift; sourceTree = "<group>"; };
+		87D854ED2B7D30D6009F7ED2 /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87D854EC2B7D2ED9009F7ED2 /* ToastUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +139,8 @@
 		87D854E72B7D2D3B009F7ED2 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				87D854E82B7D2D57009F7ED2 /* Toast.swift */,
+				87D854E82B7D2D57009F7ED2 /* ToastScreenView.swift */,
+				87D854ED2B7D30D6009F7ED2 /* AsyncImageView.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -156,6 +161,9 @@
 			dependencies = (
 			);
 			name = "SwiftUI Base Components";
+			packageProductDependencies = (
+				87D854EB2B7D2ED9009F7ED2 /* ToastUI */,
+			);
 			productName = "SwiftUI Base Components";
 			productReference = 87D854B42B7D1C5B009F7ED2 /* SwiftUI Base Components.app */;
 			productType = "com.apple.product-type.application";
@@ -228,6 +236,9 @@
 				Base,
 			);
 			mainGroup = 87D854AB2B7D1C5B009F7ED2;
+			packageReferences = (
+				87D854EA2B7D2ED9009F7ED2 /* XCRemoteSwiftPackageReference "ToastUI" */,
+			);
 			productRefGroup = 87D854B52B7D1C5B009F7ED2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -270,8 +281,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87D854EE2B7D30D6009F7ED2 /* AsyncImageView.swift in Sources */,
 				87D854BA2B7D1C5B009F7ED2 /* ContentView.swift in Sources */,
-				87D854E92B7D2D57009F7ED2 /* Toast.swift in Sources */,
+				87D854E92B7D2D57009F7ED2 /* ToastScreenView.swift in Sources */,
 				87D854B82B7D1C5B009F7ED2 /* SwiftUI_Base_ComponentsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -621,6 +633,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		87D854EA2B7D2ED9009F7ED2 /* XCRemoteSwiftPackageReference "ToastUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/quanshousio/ToastUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		87D854EB2B7D2ED9009F7ED2 /* ToastUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 87D854EA2B7D2ED9009F7ED2 /* XCRemoteSwiftPackageReference "ToastUI" */;
+			productName = ToastUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 87D854AC2B7D1C5B009F7ED2 /* Project object */;
 }
