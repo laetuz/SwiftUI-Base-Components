@@ -56,6 +56,7 @@
 		87D854F02B7D3E33009F7ED2 /* AsyncImageComp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageComp.swift; sourceTree = "<group>"; };
 		87D854F32B7D4709009F7ED2 /* ToastComp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastComp.swift; sourceTree = "<group>"; };
 		87D854F52B7D4CFB009F7ED2 /* TabViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewScreen.swift; sourceTree = "<group>"; };
+		87D854F72B7D51AB009F7ED2 /* Toast.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Toast.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +167,7 @@
 			children = (
 				87D854E82B7D2D57009F7ED2 /* ToastScreenView.swift */,
 				87D854F32B7D4709009F7ED2 /* ToastComp.swift */,
+				87D854F72B7D51AB009F7ED2 /* Toast.md */,
 			);
 			path = Toast;
 			sourceTree = "<group>";
