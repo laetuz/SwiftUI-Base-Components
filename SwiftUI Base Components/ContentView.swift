@@ -10,12 +10,17 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            SampleView()
+            Spacer()
         }
         .padding()
+    }
+}
+
+struct SampleView: View {
+    var body: some View {
+        ToastScreenView()
+        AsyncImageView()
     }
 }
 
